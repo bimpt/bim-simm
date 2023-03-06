@@ -1,0 +1,51 @@
+#bim-navbar{
+    height: 100px;
+    z-index: 1;
+
+    .navbar-brand {
+        margin-left: 24px;
+    }
+
+    .logo-brand {
+        height: 80px;
+        padding-bottom: 7px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 48px;
+    }
+
+    a {
+        color: $white;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    a:hover {
+        color: $gold-light;
+    }
+
+    .btn-navbar {
+        background: linear-gradient(79.19deg, #946936 0%, #CD9C66 100%);
+        //background: linear-gradient(57.38deg, #396F52 0%, #7AAE72 100%);
+        border-radius: 52px;
+    }
+
+    .dropdown-item {
+        &:focus {
+            background-color: $gold-light;
+            color: $white;
+        }
+    }
+}

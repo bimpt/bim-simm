@@ -1,0 +1,40 @@
+#bim-header {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+
+    .header-img {
+        position: relative;
+    }
+
+    .header-img::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(64, 46, 50, 0.75) 0%, rgba(64, 46, 50, 0.2) 100%);
+      }
+
+      .slogan {
+        position: absolute;
+        top: 30px;
+        padding: 25px 20px;
+        z-index: 2;
+      }
+
+      .slogan h1 {
+        font: bold 30px Arial;
+        color: #fff;
+      }
+
+      .slogan p {
+        width: 490px;
+        font: bold 17px Arial;
+        color: #fff;
+        padding: 4px 0px;
+      }
+}
