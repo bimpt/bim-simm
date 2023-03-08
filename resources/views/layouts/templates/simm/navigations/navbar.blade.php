@@ -12,7 +12,7 @@
         </div>
 
         <div class="btn btn-navbar">
-            <a style="color: white; text-decoration: none" href="">Donasi</a>
+            <a href="">Donasi</a>
         </div>
     </div>
 </nav>

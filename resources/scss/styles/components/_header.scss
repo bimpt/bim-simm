@@ -1,12 +1,10 @@
 #bim-header {
     height: 700px;
     width: 100%;
-    display: flex;
-    justify-content: center;
     margin-top: -100px;
 
     .header-img {
-        position: relative;
+        position: absolute;
     }
 
     .header-img::after {
@@ -17,24 +15,57 @@
         width: 100%;
         height: 100%;
         background: linear-gradient(180deg, rgba(64, 46, 50, 0.75) 0%, rgba(64, 46, 50, 0.2) 100%);
-      }
+    }
 
-      .slogan {
+    .title {
         position: absolute;
-        top: 30px;
+        top: 148px;
+        left: 110px;
         padding: 25px 20px;
         z-index: 2;
-      }
 
-      .slogan h1 {
-        font: bold 30px Arial;
-        color: #fff;
-      }
+        h1 {
+            color: $white;
+            font-family: "Merriweather", serif !important;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+            width: 641px;
+        }
 
-      .slogan p {
-        width: 490px;
-        font: bold 17px Arial;
-        color: #fff;
-        padding: 4px 0px;
-      }
+        p{
+            margin-top: 24px;
+            width: 479px;
+
+            color: $white;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+
+    .btn-header{
+        margin-top: 48px;
+        background: linear-gradient(57.38deg, #396F52 0%, #7AAE72 100%);
+        border-radius: 52px;
+
+        a{
+            color: $white;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-decoration: none;
+            padding: 10px;
+        }
+    }
+
+    .slideshow{
+        position: absolute;
+        z-index: 2;
+        margin-top: 156px;
+    }
 }
