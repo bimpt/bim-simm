@@ -16,9 +16,9 @@
     </section>
 
     <section id="jadwalsholat">
-        <h1>
+        <h2 class="title">
             Jadwal Shalat untuk wilayah Kab. Purbalingga dan sekitarnya
-        </h1>
+        </h2>
         <p>Minggu, 24 Maret 2023 | Jumat, 2 Ramadhan 1444 H</p>
 
         <div class="waktu-sholat">
@@ -27,7 +27,7 @@
                 <h6>Imsyak</h6>
                 <h5>04:21</h5>
             </div>
-            <div class="box-waktu-sholat">
+            <div class="box-waktu-sholat lr">
                 <img src="{{ asset('/themes/img/pengaturan-aplikasi/landing-page/icon-time.png') }}" alt="waktu sholat" class="img-waktu">
                 <h6>Subuh</h6>
                 <h5>04:31</h5>
@@ -61,6 +61,37 @@
                 <img src="{{ asset('/themes/img/pengaturan-aplikasi/landing-page/icon-time.png') }}" alt="waktu sholat" class="img-waktu">
                 <h6>Isya</h6>
                 <h5>19:05</h5>
+            </div>
+        </div>
+    </section>
+
+    <section id="laporankeuangan">
+        <div class="col-md-3 total">
+            <h2>Laporan Keuangan</h2>
+            <p>Total Dana Terkumpul</p>
+            <span>Rp 112.789.000</span>
+        </div>
+        <div class="col-md-9 d-flex">
+            <div class="col-md-4">
+                <div class="card box-card">
+                    <p>Total Infaq Harian</p>
+                    <span>Rp. 26.302.592</span>
+                    <small>selengkapnya ></small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card box-card">
+                    <p>Total Infaq Sholat Jum'at</p>
+                    <span>Rp. 240.000</span>
+                    <small>selengkapnya ></small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card box-card">
+                    <p>Total Donasi</p>
+                    <span>Rp. 2.000.000</span>
+                    <small>selengkapnya ></small>
+                </div>
             </div>
         </div>
     </section>

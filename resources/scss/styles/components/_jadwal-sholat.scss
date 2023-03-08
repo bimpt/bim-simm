@@ -1,18 +1,6 @@
 #jadwalsholat{
-    h1{
+    .title{
         margin-top: 187px;
-        font-family: "Merriweather", serif !important;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 40px;
-
-        text-align: center;
-        background: linear-gradient(57.38deg, #396F52 0%, #7AAE72 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-emphasis-color: transparent;
     }
 
     p{
@@ -29,12 +17,13 @@
         margin-top: 64px;
         display: flex;
         justify-content: space-between;
-        //flex-direction: column;
+        padding: 0px 108px;
 
         .box-waktu-sholat{
             width: 40%;
             height: 156px;
             border-right: 1px solid #EDEDED;
+            border-left: 1px solid #EDEDED;
 
             .img-waktu{
                 padding-top: 28px;
