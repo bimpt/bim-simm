@@ -1,0 +1,76 @@
+#bim-footer{
+    height: 428px;
+    width: 100%;
+    background: #0D342B;
+    color: $white;
+
+    .ft-left{
+        display: flex;
+        padding-top: 47px;
+        margin-left: -33px;
+
+        .logo {
+            height: 200px;
+        }
+
+        span{
+            padding-top: 40px;
+        }
+    }
+
+    .ft-right{
+        padding-left: 100px;
+        margin-left: 33px;
+
+        h5{
+            padding-top: 88px;
+        }
+
+        .logo-bsi {
+            height: 72px;
+        }
+
+        span{
+            margin-left: 24px;
+        }
+    }
+
+    .ft-line{
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .ft-menu{
+        display: flex;
+        justify-content: start;
+        margin-top: 300px;
+    }
+
+    a{
+        color: $white;
+    }
+
+    .list-inline{
+        line-height: 15px;
+        display: flex;
+    }
+
+    .menu{
+        margin-right: 32px;
+    }
+
+    .sosmed{
+        justify-content: end;
+    }
+
+    .copyright{
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+
+
+        color: rgba(255, 255, 255, 0.7);
+            }
+}

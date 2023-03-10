@@ -4,7 +4,9 @@
     margin-top: -100px;
 
     .header-img {
-        position: absolute;
+        background-image: url('/themes/img/pengaturan-aplikasi/header.png');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .header-img::after {

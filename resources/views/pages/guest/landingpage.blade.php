@@ -1,12 +1,12 @@
 <x-simm-app-layout title="Beranda">
     <!-- header -->
-    <section id="bim-header">
+    <section id="bim-header" style="background-image: url('/themes/img/pengaturan-aplikasi/header.png'); background-repeat: no-repeat; background-size: cover;" class="header-img">
         <div class="header-img">
-            <img src="/themes/img/pengaturan-aplikasi/header.png" alt="header">
             <div class="title">
-                <h1>Selamat Datang di Website Masjid Al Istiqomah</h1>
+                <h1>Selamat Datang di Website Lentera Istiqomah</h1>
 
-                <p>Informasi keuangan, layanan dan kegiatan dakwah Masjid Al-Istiqomah.</p>
+                {{-- <p>Informasi keuangan, layanan dan kegiatan dakwah Masjid Al-Istiqomah.</p> --}}
+                <p>Media Dakwah Masjid Al Istiqomah Purbalingga "Pancarkan Cahaya Ilmu Tenangkan Jiwa"</p>
 
                 <div class="btn btn-header">
                     <a href="">Visi Misi</a>
@@ -94,5 +94,27 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="jadwalkegiatan">
+        <h2>Jadwal Kegiatan di Masjid Al Istiqomah</h2>
+
+    </section>
+
+    <!-- content artikel-->
+    <section id="content">
+        <h3>Jadwal Kegiatan di Masjid Al Istiqomah</h3>
+
+    </section>
+
+    <!-- content youtube-->
+    <section id="content">
+        <h3>Jadwal Kegiatan di Masjid Al Istiqomah</h3>
+
+    </section>
+
+    <section id="partner">
+        <h2>Community & Partners</h2>
+
     </section>
 </x-simm-app-layout>
