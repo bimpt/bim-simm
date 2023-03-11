@@ -19,7 +19,7 @@
         <h2 class="title">
             Jadwal Shalat untuk wilayah Kab. Purbalingga dan sekitarnya
         </h2>
-        <p>Minggu, 24 Maret 2023 | Jumat, 2 Ramadhan 1444 H</p>
+        <p>Sabtu, 11 Maret 2023 | 18 Sya'ban 1444 H</p>
 
         <div class="waktu-sholat">
             <div class="box-waktu-sholat">
@@ -69,40 +69,40 @@
         <div class="col-md-3 total">
             <h2>Laporan Keuangan</h2>
             <p>Total Dana Terkumpul</p>
-            <span>Rp 112.789.000</span>
+            <span>Rp 6.800.000</span>
         </div>
         <div class="col-md-9 d-flex">
             <div class="col-md-4">
                 <div class="card box-card">
                     <p>Total Infaq Harian</p>
-                    <span>Rp. 26.302.592</span>
+                    <span>Rp. -</span>
                     <small>selengkapnya ></small>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card box-card">
                     <p>Total Infaq Sholat Jum'at</p>
-                    <span>Rp. 240.000</span>
+                    <span>Rp. 201.800</span>
                     <small>selengkapnya ></small>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card box-card">
                     <p>Total Donasi</p>
-                    <span>Rp. 2.000.000</span>
+                    <span>Rp. 4.500.000</span>
                     <small>selengkapnya ></small>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="jadwalkegiatan">
+    {{-- <section id="jadwalkegiatan">
         <h2>Jadwal Kegiatan di Masjid Al Istiqomah</h2>
 
-    </section>
+    </section> --}}
 
     <!-- content artikel-->
-    <section id="content">
+    {{-- <section id="content">
         <h3>Jadwal Kegiatan di Masjid Al Istiqomah</h3>
 
     </section>
@@ -116,5 +116,5 @@
     <section id="partner">
         <h2>Community & Partners</h2>
 
-    </section>
+    </section> --}}
 </x-simm-app-layout>

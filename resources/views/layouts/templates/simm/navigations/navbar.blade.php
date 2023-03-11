@@ -1,7 +1,7 @@
 <nav id="bim-navbar" class="navbar">
     <div class="container">
         <a class="navbar-brand" href="">
-            <img src="{{ asset('/themes/img/pengaturan-aplikasi/logo-alistiqomah.png') }}" alt="logo" class="logo-brand">
+            <img src="{{ asset('/themes/img/pengaturan-aplikasi/lentera/logo-lentera-istiqomah1.png') }}" alt="logo" class="logo-brand">
         </a>
         <div class="menu">
             <a class="nav-link" href="">Profil</a>
